@@ -1,0 +1,17 @@
+ul {
+  border: 2px;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.sites {
+  background-color: rgb(67, 173, 214);
+}
