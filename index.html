@@ -2,6 +2,17 @@
 <html>
 
 <head lang="en">
+  <!-- Google Analytics script -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171497031-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-171497031-1');
+  </script>
+
   <!-- required meta tags -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
@@ -36,7 +47,7 @@
   <meta name="msapplication-TileImage" content="ref/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- Adsense script -->
+  <!-- Google Adsense script -->
   <script data-ad-client="ca-pub-3291983879787489" async
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
@@ -53,14 +64,14 @@
         <a href="dullmoongym/gym.html" class="mr-5 hover:text-gray-900">DullMoon Gym</a>
         <a href="#about-us" class="mr-5 hover:text-gray-900">About Us</a>
       </nav>
-      <button
+      <a href="#contact-us"
         class="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0">Contact
-        Me
+        Us
         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
           class="w-4 h-4 ml-1" viewBox="0 0 24 24">
           <path d="M5 12h14M12 5l7 7-7 7"></path>
         </svg>
-      </button>
+      </a>
     </div>
 
   </header> <!-- *header END -->
@@ -156,7 +167,7 @@
   <hr>
 
   <!-- *Contact Us -->
-  <section class="text-gray-700 body-font">
+  <section id="contact-us" class="text-gray-700 body-font">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-col text-center w-full mb-12">
         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
