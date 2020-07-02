@@ -1,2 +1,3 @@
 User-Agent: *
 Disallow: 
+Sitemap: https://dullmoon.company/sitemap.xml
