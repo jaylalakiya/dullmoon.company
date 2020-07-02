@@ -1,6 +1,17 @@
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   cursor: pointer;
 }
+
 .text-AboutUs {
   text-align: center;
+}
+
+.h-full:hover {
+  background-color: rgba(222, 234, 245, 1);
+  bottom: 5px;
+  left: 2px;
 }
